@@ -8,6 +8,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import rf.dom.helper.Attach;
+import rf.dom.pages.MainPage;
 import rf.dom.utils.Properties;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
@@ -15,7 +16,7 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 public class TestConfig {
 
     Attach attach = new Attach();
-//    public PopUpPage popUpPage = new PopUpPage();
+    public MainPage mainPage = new MainPage();
 //    public ElementsHeaderPage elementsHeaderPage = new ElementsHeaderPage();
 //    public CheckSearchLinePage checkSearchLinePage = new CheckSearchLinePage();
 //    public ContactlessDeliveryPage contactlessDeliveryPage = new ContactlessDeliveryPage();
