@@ -9,6 +9,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import rf.dom.helper.Attach;
 import rf.dom.pages.MainPage;
+import rf.dom.pages.deposit.DepositPage;
 import rf.dom.utils.Properties;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
@@ -17,7 +18,7 @@ public class TestConfig {
 
     Attach attach = new Attach();
     public MainPage mainPage = new MainPage();
-//    public ElementsHeaderPage elementsHeaderPage = new ElementsHeaderPage();
+    public DepositPage depositPage = new DepositPage();
 //    public CheckSearchLinePage checkSearchLinePage = new CheckSearchLinePage();
 //    public ContactlessDeliveryPage contactlessDeliveryPage = new ContactlessDeliveryPage();
 //    public PayWhenYouWantPage payWhenYouWantPage = new PayWhenYouWantPage();

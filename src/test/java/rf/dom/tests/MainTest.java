@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
@@ -43,4 +44,6 @@ public class MainTest extends TestConfig {
                 .checkElementsBurgerMenu("Новости")
                 .checkElementsBurgerMenu("Контакты");
     }
+
+
 }
